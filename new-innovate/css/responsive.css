@@ -1,0 +1,1363 @@
+/*=========lg responsive start ===========*/
+@media (min-width:992px) and (max-width:1200px){
+    /*============== navbar css start ==================*/
+
+    .navbar {
+        position: static;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow:none;
+    }
+
+    .navbar .nav-item {
+        text-align: center;
+    }
+
+    .navbar-btn{
+        text-align: center;
+    }
+
+    .button {
+        padding: 20px 30px;
+    }
+    /*============== navbar css end ==================*/
+    /*============== banner css start ==================*/
+
+    #banner {
+        padding-top: 0px;
+        padding-bottom: 100px;
+    }
+
+    #banner .text {
+        margin-top: 45px;
+    }
+
+    #banner .text h1 {
+        font-size: 50px;
+        line-height: 50px;
+        padding-right: 100px;
+    }
+
+    #banner .text p {
+        padding-right: 160px;
+        margin-left: 0px;
+    }
+
+    #banner .text .input button {
+        position: absolute;
+        top: 50%;
+        right: -230px;
+        transform: translateY(-50%);
+    }
+
+    #banner .text p::after {
+        display: none;
+    }
+
+    #banner .text .input button {
+        position: absolute;
+        top: 50%;
+        right: 142px;
+        transform: translateY(-50%);
+    }
+    /*============== banner css end ==================*/
+    /*============== icone css start ==================*/
+    #icone{
+        padding: 0;
+    }
+
+    #icone .icone{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    /*============== icone css end ==================*/
+    /*============== best css satrt ==================*/
+    #best {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    #best .title {
+        display: block;
+        text-align: center;
+    }
+
+    #best .title h2 {
+        font-size: 50px;
+        line-height: 115%;
+        width: 100%;
+    }
+
+    #best .title p {
+        width: 100%;
+        line-height: 180%;
+        padding-left: 0px;
+        margin-top: 20px;
+        padding: 0 200px;
+    }
+
+    #best .title p::after {
+        display: none;
+    }
+
+    .best-item {
+        margin-top: 50px;
+    }
+
+    .best-item .icone-text {
+        margin-bottom: 20px;
+    }
+
+    .best-item .icone-text .text h3 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .best-item .icone-text .icone i {
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .best-item .item p{
+        font-size: 18px;
+        margin-top: 0px;
+        line-height: 160%;
+    }
+    /*============== best css end ==================*/
+    /*============== business css start ==================*/
+
+    #businss .right h2 {
+        font-size: 35px;
+        line-height: 130%;
+    }
+
+    #businss .right p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        margin: 20px 0;
+    }
+    /*============== business css end ==================*/
+    /*============== btn-part css start ==================*/
+    #btn-part {
+        margin-top: 70px;
+    }
+
+    .btn-part{
+        text-align: center;
+    }
+
+    .btn-part a {
+        padding: 20px;
+    }
+    /*============== btn-part css end ==================*/
+    /*============== distribution css end ==================*/
+
+    #distribution {
+        padding: 70px 0;
+    }
+
+    #distribution .left {
+        margin-right: 0px;
+    }
+
+    #distribution .right{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #distribution .right h2 {
+        font-size: 50px;
+    }
+
+    #distribution .right p {
+        line-height: 160%;
+       margin: 20px 0;
+        padding-right: 0px;
+    }
+    /*============== distribution css end ==================*/
+    /*============== right css end ==================*/
+    #right {
+        padding: 70px 0;
+    }
+
+    #right .title h2 {
+        font-size: 50px;
+        line-height: 140%;
+        padding: 0 0px;
+        margin-bottom: 50px;
+    }
+
+    #right .title p {
+        font-size: 20px;
+    }
+
+    #right .title-btn {
+        top: 115px;
+        left: 51%;
+    }
+
+    #right .title span {
+        margin-right: 120px;
+    }
+
+    #right .item:hover {
+        margin-top: 100px;
+    }
+
+    #right .item ul {
+        margin: 20px 0;
+    }
+
+    #right .item li {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    #right .item a {
+        padding: 15px 20px;
+    }
+    /*============== right css end ==================*/
+    /*============== build css start ==================*/
+    #build {
+        padding: 70px 0;
+    }
+
+    #build .title h2 {
+        font-size: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    #build .img-text .text p {
+        font-size: 18px;
+        line-height: 160%;
+        margin-top: 20px;
+    }
+
+    #build .img-text .text h5 {
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    #build .img-text .text .arrow {
+        margin-top: 20px;
+    }
+
+    #build .right{
+        margin-top: 30px;
+    }
+
+    #build .right img{
+        width: 100%;
+        margin-left: 0;
+    }
+    /*============== build css end ==================*/
+    /*============== ready css start ==================*/
+
+    #ready {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    #ready .title h2 {
+        font-size: 50px;
+    }
+
+    #ready p {
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    #ready form {
+        margin-top: 30px;
+    }
+
+    #ready form input {
+        margin-right: 10px;
+    }
+
+    #ready form button{
+        margin-top: 20px;
+    }
+
+    /*============== ready css end ==================*/
+    /*============== footer css start ==================*/
+    footer {
+        padding: 50px 0;
+    }
+    footer .logo p {
+        font-size: 18px;
+        line-height: 170%;
+        margin-top: 20px;
+        padding-right: 0px;
+    }
+
+    footer .item{
+        margin: 15px;
+    }
+
+    footer .item h4 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    footer .item ul li {
+        margin-bottom: 15px;
+    }
+
+    .copy-right {
+        margin-top: 30px;
+    }
+
+    .copy-right p span {
+        margin-left: 30px;
+    }
+    /*============== footer css end ==================*/
+}
+/*=========lg responsive end ===========*/
+
+/*=========md responsive start ===========*/
+@media (min-width:768px) and (max-width:991px){
+    /*============== navbar css start ==================*/
+
+    .navbar {
+        position: static;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow:none;
+    }
+
+    .navbar .nav-item {
+        text-align: center;
+    }
+
+    .navbar-btn{
+        text-align: center;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+    /*============== navbar css end ==================*/
+    /*============== banner css start ==================*/
+
+    #banner {
+        padding-top: 0px;
+        padding-bottom: 70px;
+        text-align: center;
+    }
+
+    #banner .text {
+        margin-top: 45px;
+    }
+
+    #banner .text h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    #banner .text p {
+        line-height: 160%;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    #banner .text p::after {
+        display: none;
+    }
+
+    #banner .text .input input {
+        padding: 20px 200px 20px 20px;
+        border-radius: 10px;
+    }
+
+    #banner .text .input button {
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        transform: translateY(-50%);
+    }
+    /*============== banner css end ==================*/
+    /*============== icone css start ==================*/
+    #icone{
+        padding: 0;
+    }
+
+    #icone .icone{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    /*============== icone css end ==================*/
+    /*============== best css satrt ==================*/
+    #best {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    #best .title {
+        display: block;
+        text-align: center;
+    }
+
+    #best .title h2 {
+        font-size: 35px;
+        line-height: 115%;
+        width: 100%;
+    }
+
+    #best .title p {
+        width: 100%;
+        line-height: 164%;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    #best .title p::after {
+        display: none;
+    }
+
+    .best-item {
+        margin-top: 50px;
+    }
+
+    .best-item .item {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .best-item .icone-text {
+        margin-bottom: 20px;
+    }
+
+    .best-item .icone-text .text h3 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .best-item .icone-text .icone i {
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .best-item .item p{
+        font-size: 18px;
+        margin-top: 0px;
+        line-height: 160%;
+    }
+    /*============== best css end ==================*/
+    /*============== business css start ==================*/
+    #businss .right {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #businss .right h2 {
+        font-size: 35px;
+        line-height: 130%;
+    }
+
+    #businss .right p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        margin: 20px 0;
+    }
+    /*============== business css end ==================*/
+    /*============== btn-part css start ==================*/
+    #btn-part {
+        margin-top: 70px;
+    }
+
+    .btn-part{
+        text-align: center;
+    }
+
+    .btn-part a {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    /*============== btn-part css end ==================*/
+    /*============== distribution css end ==================*/
+
+    #distribution {
+        padding: 70px 0;
+    }
+
+    #distribution .left {
+        margin-right: 0px;
+    }
+
+    #distribution .right{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #distribution .right h2 {
+        font-size: 35px;
+    }
+
+    #distribution .right p {
+        line-height: 160%;
+       margin: 20px 0;
+        padding-right: 0px;
+    }
+    /*============== distribution css end ==================*/
+    /*============== right css end ==================*/
+    #right {
+        padding: 30px 0;
+    }
+
+    #right .title h2 {
+        font-size: 35px;
+        line-height: 140%;
+        padding: 0 0px;
+        margin-bottom: 30px;
+    }
+
+    #right .title p {
+        font-size: 20px;
+    }
+
+    #right .title-btn {
+        top: 75px;
+        left: 53%;
+    }
+
+    #right .title span {
+        margin-right: 120px;
+    }
+
+    #right .item:hover {
+        margin-top: 30px;
+    }
+
+    #right .item {
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+    #right .item h4 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #right .item ul {
+        margin: 20px 0;
+    }
+
+    #right .item li {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    #right .item a {
+        padding: 15px 20px;
+    }
+    /*============== right css end ==================*/
+    /*============== build css start ==================*/
+    #build {
+        padding: 50px 0;
+    }
+
+    #build .title h2 {
+        font-size: 35px;
+        padding-right: 0px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    #build .text{
+        text-align: center;
+    }
+
+    #build .img-text .text p {
+        font-size: 18px;
+        line-height: 160%;
+        margin-top: 20px;
+    }
+
+    #build .img-text .text h5 {
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    #build .img-text .text .arrow {
+        margin-top: 20px;
+    }
+
+    #build .right{
+        margin-top: 30px;
+    }
+
+    #build .right img{
+        width: 100%;
+        margin-left: 0;
+    }
+    /*============== build css end ==================*/
+    /*============== ready css start ==================*/
+
+    #ready {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    #ready .title h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+        padding: 0 0px;
+    }
+
+    #ready p {
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    #ready form {
+        margin-top: 30px;
+    }
+
+    #ready form input {
+        padding: 15px 70px 15px 15px;
+        border-radius: 10px;
+        margin-right: 0px;
+    }
+
+    #ready form button{
+        margin-top: 20px;
+    }
+
+    /*============== ready css end ==================*/
+    /*============== footer css start ==================*/
+    footer {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    footer .logo{
+        text-align: center;
+    }
+
+    footer .logo p {
+        font-size: 18px;
+        line-height: 170%;
+        margin-top: 20px;
+        padding-right: 0px;
+    }
+
+    footer .item{
+        margin: 15px;
+    }
+
+    footer .item h4 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    footer .item ul li {
+        margin-bottom: 15px;
+    }
+
+    .copy-right {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .copy-right p span {
+        margin-left: 0px;
+    }
+    /*============== footer css end ==================*/
+}
+/*=========md responsive end ===========*/
+
+/*=========sm responsive start ===========*/
+@media (min-width:576px) and (max-width:767px){
+    /*============== navbar css start ==================*/
+
+    .navbar {
+        position: static;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow:none;
+    }
+
+    .navbar .nav-item {
+        text-align: center;
+    }
+
+    .navbar-btn{
+        text-align: center;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+    /*============== navbar css end ==================*/
+    /*============== banner css start ==================*/
+
+    #banner {
+        padding-top: 0px;
+        padding-bottom: 70px;
+        text-align: center;
+    }
+
+    #banner .text {
+        margin-top: 45px;
+    }
+
+    #banner .text h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    #banner .text p {
+        line-height: 160%;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    #banner .text p::after {
+        display: none;
+    }
+
+    #banner .text .input input {
+        padding: 20px 50px 20px 20px;
+        border-radius: 10px;
+    }
+
+    #banner .text .input button {
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        transform: translateY(-50%);
+    }
+    /*============== banner css end ==================*/
+    /*============== icone css start ==================*/
+    #icone{
+        padding: 0;
+    }
+
+    .icone{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    /*============== icone css end ==================*/
+    /*============== best css satrt ==================*/
+    #best {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    #best .title {
+        display: block;
+        text-align: center;
+    }
+
+    #best .title h2 {
+        font-size: 35px;
+        line-height: 115%;
+        width: 100%;
+    }
+
+    #best .title p {
+        width: 100%;
+        line-height: 164%;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    #best .title p::after {
+        display: none;
+    }
+
+    .best-item {
+        margin-top: 50px;
+    }
+
+    .best-item .item {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .best-item .icone-text .text h3 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .best-item .icone-text .icone i {
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .best-item .item p{
+        font-size: 16px;
+        margin-top: 0px;
+        line-height: 160%;
+    }
+    /*============== best css end ==================*/
+    /*============== business css start ==================*/
+    #businss .right {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #businss .right h2 {
+        font-size: 35px;
+        line-height: 130%;
+    }
+
+    #businss .right p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        margin: 20px 0;
+    }
+    /*============== business css end ==================*/
+    /*============== btn-part css start ==================*/
+    #btn-part {
+        margin-top: 70px;
+    }
+
+    .btn-part{
+        text-align: center;
+    }
+
+    .btn-part a {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    /*============== btn-part css end ==================*/
+    /*============== distribution css end ==================*/
+
+    #distribution {
+        padding: 70px 0;
+    }
+
+    #distribution .left {
+        margin-right: 0px;
+    }
+
+    #distribution .right{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #distribution .right h2 {
+        font-size: 35px;
+    }
+
+    #distribution .right p {
+        line-height: 160%;
+       margin: 20px 0;
+        padding-right: 0px;
+    }
+    /*============== distribution css end ==================*/
+    /*============== right css end ==================*/
+    #right {
+        padding: 30px 0;
+    }
+
+    #right .title h2 {
+        font-size: 35px;
+        line-height: 140%;
+        padding: 0 0px;
+        margin-bottom: 30px;
+    }
+
+    #right .title p {
+        font-size: 20px;
+    }
+
+    #right .title-btn {
+        top: 110px;
+        left: 53%;
+    }
+
+    #right .title span {
+        margin-right: 120px;
+    }
+
+    #right .item:hover {
+        margin-top: 30px;
+    }
+
+    #right .item {
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+    #right .item h4 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #right .item ul {
+        margin: 20px 0;
+    }
+
+    #right .item li {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    #right .item a {
+        padding: 15px 20px;
+    }
+    /*============== right css end ==================*/
+    /*============== build css start ==================*/
+    #build {
+        padding: 30px 0;
+    }
+
+    #build .title h2 {
+        font-size: 35px;
+        padding-right: 0px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    #build .text{
+        text-align: center;
+    }
+
+    #build .img-text .text p {
+        font-size: 18px;
+        line-height: 160%;
+        margin-top: 20px;
+    }
+
+    #build .img-text .text h5 {
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    #build .img-text .text .arrow {
+        margin-top: 20px;
+    }
+
+    #build .right{
+        margin-top: 30px;
+    }
+
+    #build .right img{
+        width: 100%;
+        margin-left: 0;
+    }
+    /*============== build css end ==================*/
+    /*============== ready css start ==================*/
+
+    #ready {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    #ready .title h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+        padding: 0 0px;
+    }
+
+    #ready p {
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    #ready form {
+        margin-top: 30px;
+    }
+
+    #ready form input {
+        padding: 15px 70px 15px 15px;
+        border-radius: 10px;
+        margin-right: 0px;
+    }
+
+    #ready form button{
+        margin-top: 20px;
+    }
+
+    /*============== ready css end ==================*/
+    /*============== footer css start ==================*/
+    footer {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    footer .logo{
+        text-align: center;
+    }
+
+    footer .logo p {
+        font-size: 18px;
+        line-height: 170%;
+        margin-top: 20px;
+        padding-right: 0px;
+    }
+
+    footer .item{
+        margin: 15px;
+    }
+
+    footer .item h4 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    footer .item ul li {
+        margin-bottom: 15px;
+    }
+
+    .copy-right {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .copy-right p span {
+        margin-left: 0px;
+    }
+    /*============== footer css end ==================*/
+}
+/*=========sm responsive end ===========*/
+
+/*========= xx sm responsive start ===========*/
+@media (max-width:575px){
+    /*============== navbar css start ==================*/
+
+    .navbar {
+        position: static;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow:none;
+    }
+
+    .navbar .nav-item {
+        text-align: center;
+    }
+
+    .navbar-btn{
+        text-align: center;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+    /*============== navbar css end ==================*/
+    /*============== banner css start ==================*/
+
+    #banner {
+        padding-top: 0px;
+        padding-bottom: 70px;
+        text-align: center;
+    }
+
+    #banner .text {
+        margin-top: 45px;
+    }
+
+    #banner .text h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    #banner .text p {
+        line-height: 160%;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    #banner .text p::after {
+        display: none;
+    }
+
+    #banner .text .input input {
+        padding: 20px 50px 20px 20px;
+        border-radius: 10px;
+    }
+
+    #banner .text .input button {
+        position: static;
+        margin-top: 40px;
+    }
+    /*============== banner css end ==================*/
+    /*============== icone css start ==================*/
+    #icone{
+        padding: 0;
+    }
+
+    .icone{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    /*============== icone css end ==================*/
+    /*============== best css satrt ==================*/
+    #best {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    #best .title {
+        display: block;
+        text-align: center;
+    }
+
+    #best .title h2 {
+        font-size: 30px;
+        line-height: 115%;
+        width: 100%;
+    }
+
+    #best .title p {
+        width: 100%;
+        line-height: 164%;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    #best .title p::after {
+        display: none;
+    }
+
+    .best-item {
+        margin-top: 50px;
+    }
+
+    .best-item .icone-text .text h3 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .best-item .icone-text .icone i {
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .best-item .item p{
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    /*============== best css end ==================*/
+    /*============== business css start ==================*/
+    #businss .right {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #businss .right h2 {
+        font-size: 30px;
+        line-height: 130%;
+    }
+
+    #businss .right p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        margin: 20px 0;
+    }
+    /*============== business css end ==================*/
+    /*============== btn-part css start ==================*/
+    #btn-part {
+        margin-top: 70px;
+    }
+
+    .btn-part{
+        text-align: center;
+    }
+
+    .btn-part a {
+        padding: 15px 20px;
+        margin-bottom: 20px;
+    }
+    /*============== btn-part css end ==================*/
+    /*============== distribution css end ==================*/
+
+    #distribution {
+        padding: 70px 0;
+    }
+
+    #distribution .left {
+        margin-right: 0px;
+    }
+
+    #distribution .right{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #distribution .right h2 {
+        font-size: 30px;
+    }
+
+    #distribution .right p {
+        line-height: 160%;
+       margin: 20px 0;
+        padding-right: 0px;
+    }
+    /*============== distribution css end ==================*/
+    /*============== right css end ==================*/
+    #right {
+        padding: 30px 0;
+    }
+
+    #right .title h2 {
+        font-size: 30px;
+        line-height: 140%;
+        padding: 0 0px;
+        margin-bottom: 30px;
+    }
+
+    #right .title p {
+        font-size: 20px;
+    }
+
+    #right .title-btn {
+        top: 110px;
+        left: 53%;
+    }
+
+    #right .title span {
+        margin-right: 120px;
+    }
+
+    #right .item:hover {
+        margin-top: 30px;
+    }
+
+    #right .item {
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    #right .item h4 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #right .item ul {
+        margin: 20px 0;
+    }
+
+    #right .item li {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    /*============== right css end ==================*/
+    /*============== build css start ==================*/
+    #build {
+        padding: 30px 0;
+    }
+
+    #build .title h2 {
+        font-size: 30px;
+        padding-right: 0px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    #build .text{
+        text-align: center;
+    }
+
+    #build .img-text .text p {
+        font-size: 18px;
+        line-height: 160%;
+        margin-top: 20px;
+    }
+
+    #build .img-text .text h5 {
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    #build .img-text .text .arrow {
+        margin-top: 20px;
+    }
+
+    #build .right{
+        margin-top: 30px;
+    }
+
+    #build .right img{
+        width: 100%;
+        margin-left: 0;
+    }
+    /*============== build css end ==================*/
+    /*============== ready css start ==================*/
+
+    #ready {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    #ready .title h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        padding: 0 0px;
+    }
+
+    #ready p {
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    #ready form {
+        margin-top: 30px;
+    }
+
+    #ready form input {
+        padding: 15px 70px 15px 15px;
+        border-radius: 10px;
+        margin-right: 0px;
+    }
+
+    #ready form button{
+        margin-top: 20px;
+    }
+
+    /*============== ready css end ==================*/
+    /*============== footer css start ==================*/
+    footer {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    footer .logo p {
+        font-size: 16px;
+        line-height: 170%;
+        margin-top: 20px;
+        padding-right: 0px;
+    }
+
+    footer .item{
+        margin: 15px;
+    }
+
+    footer .item h4 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    footer .item ul li {
+        margin-bottom: 15px;
+    }
+
+    .copy-right {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .copy-right p span {
+        margin-left: 0px;
+    }
+    /*============== footer css end ==================*/
+}
+/*========= xx sm responsive end ===========*/

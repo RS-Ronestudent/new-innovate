@@ -1,0 +1,605 @@
+/*=============== common css start =================*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: url(../images/Rectangle\ 12.png) no-repeat top cover;
+}
+
+ul,li{
+    list-style: none;
+    padding-left: 0rem;
+}
+
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--primary-font);
+    color:var(--text-color);
+}
+p{
+    font-family:var(--secoundary-font);
+    color:var(--text-color);
+}
+
+.button{
+    font-family: var(--secoundary-font);
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px 35px;
+    border-radius: 18px;
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 1px solid var(--primary-color);
+    transition: .4s;
+    text-transform: capitalize;
+}
+
+.button:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+:root{
+    --primary-font:'Open Sans', sans-serif;
+    --secoundary-font:'Nunito', sans-serif;
+    --text-color:#29313D;
+    --primary-color:#8454F5;
+}
+/*=============== common css end =================*/
+/*=============== navbar css start =================*/
+.navbar{
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar .nav-item{
+    margin: 0 20px;
+}
+
+.navbar .nav-item .nav-link{
+    color: var(--text-color);
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.navbar .nav-item .nav-link i{
+    margin-left: 8px;
+}
+/*=============== navbar css end =================*/
+/*=============== banner css start =================*/
+#banner{
+    padding-top: 224px;
+    padding-bottom: 70px;
+}
+
+#banner .text{
+    margin-top: 100px;
+}
+
+#banner .text h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+}
+
+#banner .text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    padding-right: 240px;
+    margin: 40px 0;
+    position: relative;
+    margin-left: 20px;
+}
+
+#banner .text p::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 5px;
+    height: 100%;
+    background-color: #FFC556;
+}
+
+#banner .text .input{
+    position: relative;
+}
+
+#banner .text .input input{
+    padding: 37px 283px 37px 28px;
+    background: rgba(132, 84, 245, 0.05);
+    border-radius: 24px;
+    border: none;
+}
+
+#banner .text .input button{
+    position: absolute;
+    top: 50%;
+    right: 265px;
+    transform: translateY(-50%);
+}
+
+#banner .img img{
+    width: 100%;
+} 
+/*=============== banner css end =================*/
+/*=============== icone css start =================*/
+
+#icone{
+    padding: 80px 0;
+}
+
+/*=============== icone css end =================*/
+/*=============== best css start =================*/
+#best{
+    padding-top: 120px;
+    padding-bottom: 90px;
+
+}
+
+
+#best .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#best .title h2{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+    width: 40%;
+}
+
+#best .title p{
+    width: 50%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    position: relative;
+    padding-left: 20px;
+}
+
+#best .title p::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 5px;
+    height: 100%;
+    background-color: #FFC556;
+}
+
+.best-item{
+    margin-top: 80px;
+}
+
+.best-item .item{
+    background: #FFFFFF;
+    border: 1px solid rgba(132, 84, 245, 0.4);
+    border-radius: 30px;
+    padding: 24px 34px 48px 24px;
+    transition: .4s;
+    margin-bottom: 30px;
+}
+
+.best-item .item:hover{
+    background-color: #8454F5;
+    color: #fff;
+}
+
+
+.best-item .icone-text{
+    display: flex;
+    align-items: center;
+}
+
+.best-item .icone-text .icone i{
+    padding: 20px;
+    background: rgba(254, 195, 95, 0.15);
+    border-radius: 14px;
+}
+
+.best-item .icone-text .text{
+    margin-left: 15px;
+}
+
+.best-item .icone-text .text h3{
+    font-weight: 700;
+    font-size: 28px;
+    transition: .4s;
+}
+
+.best-item .item:hover .icone-text .text h3{
+    color: #fff;
+}
+
+.best-item  .item p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+    transition: .4s;
+}
+
+.best-item  .item:hover p{
+    color: #fff;
+}
+
+
+.best-item .item h4{
+    font-weight: 600;
+    font-size: 20px;
+    transition: .4s;
+}
+
+.best-item .item:hover h4{
+    color: #fff;
+}
+/*=============== best css end =================*/
+/*=============== businss css start =================*/
+#businsss{
+    padding-top: 150px;
+    padding-bottom: 248px;
+}
+
+#businss .left img{
+    width: 100%;
+}
+
+#businss .right{
+    margin-top: 100px;
+}
+
+#businss .right h2{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+}
+
+#businss .right p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+/*=============== businss css end =================*/
+/*=============== button css start =================*/
+#btn-part{
+    margin-top: 180px;
+}
+
+.btn-part{
+    padding: 15px 0;
+    background: rgba(219, 204, 252, 0.2);
+    border-radius: 24px;
+}
+
+.btn-part a{
+    font-family: var(--secoundary-font);
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 28px 45px;
+    background: transparent;
+    border-radius: 18px;
+    color: var(--primary-color);
+    transition: .4s;
+}
+
+.btn-part a:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+/*=============== button css end =================*/
+/*=============== distribution css start =================*/
+#distribution{
+   padding: 120px 0;
+}
+
+#distribution .left{
+    margin-right: 150px;
+}
+
+#distribution .left img{
+    width: 100%;
+}
+
+#distribution .right h2{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+}
+
+#distribution .right p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    padding-right: 100px;
+}
+/*=============== distribution css end =================*/
+/*=============== right css start =================*/
+#right{
+    padding: 120px 0;
+   background-color: #F9F6FF;
+}
+
+#right .title{
+    text-align: center;
+    position: relative;
+}
+
+#right .title h2{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+    padding: 0 300px;
+    margin-bottom: 30px;
+}
+
+#right .title-btn{
+    width: 80px;
+    height: 40px;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+   position: absolute;
+   top: 190px;
+   left: 51%;
+   transform: translateX(-50%);
+}
+
+#right .title-btn::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 26px;
+    background-color:#fff;
+    border-radius: 50%;
+}
+
+#right .title p{
+    font-weight: 700;
+    font-size: 28px;
+    color: #29313D;
+}
+
+#right .title span{
+    margin-right: 100px;
+}
+
+#right .item{
+    background-color:#fff;
+    padding: 48px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top: 160px
+
+}
+
+#right .item:hover{
+    margin-top: 80px;
+    background-color: #181059;
+}
+
+#right .item h4{
+    font-weight: 700;
+    font-size: 36px;
+    transition: .4s;
+}
+
+#right .item:hover h4{
+    color: #fff;
+}
+
+#right .item ul{
+        margin: 48px 0;
+}
+
+
+#right .item li{
+    font-weight: 400;
+    font-size: 20px;
+    color: #545A64;
+    margin-bottom: 28px;
+    position: relative;
+    transition: .4s;
+}
+
+#right .item:hover li{
+    color: #fff;
+}
+
+#right .item li span{
+   position: absolute;
+   top:2px;
+   right: 0;
+   color:#8454F5;
+   transition: .4s;
+}
+
+#right .item:hover li span{
+    color: #fff;
+}
+
+#right .item a{
+    color: #545A64;
+    display: inline-block;
+    padding: 20px 48px;
+    background: rgba(132, 84, 245, 0.1);
+    border-radius: 18px;
+    transition: .4s;
+}
+#right .item:hover a{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+/*=============== right css end =================*/
+/*=============== build css start =================*/
+#build{
+    padding: 140px 0;
+}
+
+#build .title h2{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+    padding-right: 530px;
+    margin-bottom: 90px;
+}
+
+#build .img-text img{
+    width: 100%;
+    border-radius: 40px;
+}
+
+#build .img-text .text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+}
+
+#build .img-text .text h5{
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#build .img-text .text .icone i{
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    margin-right: 24px;
+    transition: .4s;
+}
+
+#build .img-text .text .icone i:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+#build .img-text .text .arrow{
+    margin-top: 50px;
+}
+
+#build .img-text .text .arrow i{
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    background-color: #F3EEFE;
+    margin-right: 24px;
+    transition: .4s;
+    border-radius: 10px;
+}
+
+#build .img-text .text .arrow i:hover{
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+#build .right img{
+    width: 90%;
+    margin-left: 30px;
+}
+/*=============== build css end =================*/
+/*=============== ready css start =================*/
+#ready{
+    padding: 140px 0;
+    text-align: center;
+}
+
+#ready .title h2{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+    margin-bottom: 28px;
+    padding: 0 220px;
+}
+
+#ready p{
+    font-weight: 400;
+    font-size: 20px
+}
+
+#ready form{
+    margin-top: 48px;
+}
+
+#ready form input{
+    padding: 24px 356px 24px 24px;
+    border-radius: 18px;
+    background-color: #F3EEFE;
+    border: none;
+    margin-right: 30px;
+}
+/*=============== ready css end =================*/
+/*=============== footer css start =================*/
+footer{
+    padding-top: 140px;
+    padding-bottom: 160px;
+}
+
+footer .logo p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    margin-top: 44px;
+    padding-right: 75px;
+    text-transform: capitalize;
+}
+
+footer .item h4{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 48px;
+}
+
+footer .item ul li{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #29313D;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.copy-right p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.copy-right p span{
+    margin-left: 60px;
+}
+/*=============== footer css end =================*/
